@@ -33,7 +33,7 @@ public class Ball : MonoBehaviour
         rd = GetComponent<MeshRenderer>();
     }
 
-    public void SetColorAndPoint(BallColors color, int Point)
+    public void SetColorAndPoint(BallColors color)
     {
         switch (color)
         {
